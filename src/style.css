@@ -1,0 +1,19 @@
+
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+
+
+.bg-style{
+
+    background-position:center;
+      background-repeat:no-repeat;
+      background-size: cover;
+  }
+.orange{
+ @apply flex-1 capitalize text-sm  sm:py-3.5 md:mt-0 block md:inline-block outline-none bg-picker md:text-base font-semibold tracking-wider md:uppercase py-3 rounded shadow 
+ transition delay-150 duration-300 ease-in-out}
+.orange:hover{
+  @apply bg-platinum text-picker
+}
+
+@import "tailwindcss/utilities";
